@@ -143,12 +143,14 @@ div.msgErr{position: absolute;text-align: center;top: -25px;left: 0px;color:#C02
 .nota{width: 300px; height: auto; border: 1px solid gray; padding: 10px; margin: 10px;}
     .cabeza{padding: 0px 0px 10px 0px}
         .cabeza button{text-decoration: none; border:none; outline:none; padding: 0px 5px 0px 0px;}
-        .cabeza h1{font-size:20px}
-    .cuerpo{padding: 10px; border: 1px solid gray;}
+        .cabeza .titulo{font-size:20px; padding: 5px;}
+    .cuerpo{padding: 10px;}
     .cuerpo .etiquetas{padding: 0px}
         .cuerpo .etiquetas a {text-decoration: none; cursor: pointer; color:lightblue; font-size:10px}
     .pie .timestamp{color: gray; font-size: 10px; }
 
+.field{border-radius:5px;}   
+textarea{padding:0px 10px 0px 10px; resize:vertical;} 
 .btn{text-align:center;cursor:pointer;}
 
 @media only screen and (-Webkit-min-device-pixel-ratio:1.5),

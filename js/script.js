@@ -5,14 +5,16 @@ $(".btn").click(function(e){
     send()
 })
 
-$(".cuerpo").focusout(function(){
+$(".nota").focusout(function(){
     console.log($(this).find(".text").val());
-    $(this).css("border","none")
+    $(this).find(".text").css("border","none")
+    $(this).find(".titulo").css("border","none")
     send()
 })
 
 $(".nota").click(function(){
-    $(this).find(".cuerpo").fadeIn("slow").css("border","1px solid gray")
+    $(this).find(".text").css("border","1px solid gray")
+    $(this).find(".titulo").css("border","1px solid gray")
     send()
 })
 
